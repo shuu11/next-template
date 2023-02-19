@@ -13,20 +13,19 @@ module.exports = {
 
 	rules: {
 		'react/react-in-jsx-scope': 'off',
-		'@typescript-eslint/ban-types': 'off',
 		'import/order': [
 			2,
 			{
-				// alphabetize: {
-				// 	order: 'asc',
-				// },
+				alphabetize: {
+					order: 'asc',
+				},
 			},
 		],
 
 		'prettier/prettier': [
 			'error',
 			{
-				// printWidth: 100,
+				printWidth: 200,
 				tabWidth: 2,
 				useTabs: true,
 				semi: false,
