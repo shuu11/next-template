@@ -1,6 +1,6 @@
 // all option setting
 module.exports = {
-	printWidth: 200,
+	printWidth: 100,
 	tabWidth: 2,
 	useTabs: true,
 	semi: false,

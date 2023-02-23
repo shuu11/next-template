@@ -1,4 +1,5 @@
 module.exports = {
+	ignorePatterns: ['/**/*', '!/src/**.{js,jsx,ts,tsx}'],
 	extends: [
 		'next',
 		'next/core-web-vitals',
@@ -25,7 +26,7 @@ module.exports = {
 		'prettier/prettier': [
 			'error',
 			{
-				printWidth: 200,
+				printWidth: 100,
 				tabWidth: 2,
 				useTabs: true,
 				semi: false,

@@ -1,8 +1,8 @@
 import 'windi.css' // eslint-disable-line import/no-unresolved
-import { Roboto, Lora, Inter, Kenia, Dancing_Script } from '@next/font/google'
+// import { Roboto, Lora, Inter, Kenia, Dancing_Script } from '@next/font/google'
 import type { AppProps } from 'next/app'
-import { SWRConfig } from 'swr'
 import { RecoilRoot } from 'recoil'
+import { SWRConfig } from 'swr'
 import { fetcher } from '@f/fetcher'
 
 // font

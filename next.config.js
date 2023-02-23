@@ -2,7 +2,7 @@
 
 const WindiCSSWebpackPlugin = require('windicss-webpack-plugin')
 const withInterceptStdout = require('next-intercept-stdout')
-const urlPrefix = '.'
+// const urlPrefix = '.'
 
 const nextConfig = withInterceptStdout(
 	{
