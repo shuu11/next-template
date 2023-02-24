@@ -3,7 +3,7 @@ import 'windi.css' // eslint-disable-line import/no-unresolved
 import type { AppProps } from 'next/app'
 import { RecoilRoot } from 'recoil'
 import { SWRConfig } from 'swr'
-import { fetcher } from '@f/fetcher'
+import { fetcher } from 'lib/fetcher'
 
 // font
 // const roboto_normal = Roboto({ weight: '400', subsets: ['latin'] })

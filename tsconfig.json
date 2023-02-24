@@ -20,17 +20,11 @@
 		"incremental": true,
 		"baseUrl": "src",
 		"paths": {
-			"@c/*": [
-				"components/*"
-			],
-			"@f/*": [
-				"features/*"
+			"@a/*": [
+				"app/*"
 			],
 			"@s/*": [
 				"state/*"
-			],
-			"@t/*": [
-				"types/*"
 			],
 		}
 	},
@@ -38,8 +32,9 @@
 		"next-env.d.ts",
 		"**/*.ts",
 		"**/*.tsx",
-		"**/*.d.ts"
-, "src/features/lib/index.ts"	],
+		"**/*.d.ts",
+		"src/features/lib/index.ts"
+	],
 	"exclude": [
 		"node_modules"
 	]
