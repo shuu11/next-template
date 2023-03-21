@@ -4,7 +4,7 @@ export default defineConfig({
 	attributify: false,
 	darkMode: false, // or 'media' or 'class'
 	extract: {
-		include: ['**/*.{css,ts,tsx}'],
+		include: ['**/*.{css,jsx,tsx}'],
 		exclude: ['node_modules', '.git', '.next'],
 	},
 	theme: {
