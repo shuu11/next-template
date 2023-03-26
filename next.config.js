@@ -3,7 +3,12 @@
 const WindiCSSWebpackPlugin = require('windicss-webpack-plugin')
 const withInterceptStdout = require('next-intercept-stdout')
 
-const ignoreComments = ['Duplicate atom key', 'The `app` directory is experimental.']
+const ignoreComments = [
+	'Duplicate atom key',
+	'The `app` directory is experimental.',
+	'Your project has `@next/font` installed as a dependency',
+	'Fast Refresh had to perform a full reload.',
+]
 
 // const urlPrefix = '.'
 
